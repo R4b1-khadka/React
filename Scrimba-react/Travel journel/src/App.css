@@ -1,0 +1,66 @@
+*{
+  font-family: "Inter", sans-serif;
+  margin:0;
+  padding:0;
+}
+.header-section>span{
+  font-size:large;
+  color:white;
+}
+.header-section>img{
+  width:50px;
+}
+.header-section{
+  background-color: rgb(254, 107, 131);
+  display:flex;
+  padding:15px 20px;
+  align-items: center;
+  justify-content: center;
+}
+.entry-section{
+  padding:20px 30px;
+}
+.card-container{
+  display:flex;
+  width: 75vw;
+
+}
+
+.fuji-img{
+  height:300px;
+  width:300px;
+  border-radius:10px;
+  margin-right:20px;
+  
+}
+.card-header{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  justify-content: flex-start;;
+
+}
+.card-header>img{
+  width: 20px;  
+}
+.card-header>a{
+  color:#747070;
+  margin-left:12px;
+}
+
+.card-header>span{
+  font-weight:500;
+  
+}
+.card-header + h2{
+  padding:10px 0;
+  margin-bottom:20px;
+}
+.card-paragraph>span{
+  font-size:small;
+  font-weight:bold;
+  
+}
+.card-paragraph> p{
+  margin-top:10px;
+}
